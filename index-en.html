@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima - CRM for Pharmaceutical Companies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">Lima</div>
+                <div class="nav-menu">
+                    <a href="#about" class="nav-link">About System</a>
+                    <a href="#modules" class="nav-link">Modules</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="btn btn--primary btn--sm" onclick="openDemoModal()">Get Demo</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">CRM System for Pharmaceutical Companies</h1>
+                    <p class="hero-subtitle">Revolutionary solution for medical representatives and managers. 3 years of development, 400 active users, 7 modules for complete business process control.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary btn--lg" onclick="openDemoModal()">Get Demo</button>
+                        <a href="#about" class="btn btn--outline btn--lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748680040/pplx_project_search_images/1ec157b52c9f4dfcc45635bff410977bfee776b7.jpg" alt="Medical representative with tablet" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lima - Integrated CRM System for Pharmaceutical Holdings</h2>
+                <p>Comprehensive solution for sales management, client database and medical representatives team management</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">years of development</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">400</div>
+                    <div class="stat-label">active users</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">system modules</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section id="modules" class="modules">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lima System Modules</h2>
+                <p>Full-featured CRM with integrations and mobile application</p>
+            </div>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-icon">👥</div>
+                    <h3>CRM for Client Management</h3>
+                    <p>Complete cycle of working with client database, contact management and interaction history</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">🏥</div>
+                    <h3>Medical Representatives Module</h3>
+                    <p>Management of medical representatives team and their field activity</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">🔗</div>
+                    <h3>1C UT Integration</h3>
+                    <p>Seamless integration with accounting systems for data synchronization</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">🚚</div>
+                    <h3>DPD Delivery System</h3>
+                    <p>Automation of logistics processes and delivery tracking</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">📅</div>
+                    <h3>Visit Management</h3>
+                    <p>Planning and control of doctor visits with mobile application</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">💊</div>
+                    <h3>Drug Database</h3>
+                    <p>Management of nomenclature and characteristics of medical products</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">📊</div>
+                    <h3>Reporting Module</h3>
+                    <p>Detailed analytics and reports across all business areas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section class="mobile-app">
+        <div class="container">
+            <div class="mobile-app-content">
+                <div class="mobile-app-text">
+                    <h2>Mobile Application for Medical Representatives</h2>
+                    <p>Work efficiently anywhere with our intuitive mobile application</p>
+                    <ul class="feature-list">
+                        <li>Planning and marking doctor visits</li>
+                        <li>Offline access to client database</li>
+                        <li>Synchronization with main system</li>
+                        <li>Real-time reports and analytics</li>
+                    </ul>
+                </div>
+                <div class="mobile-app-images">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748680040/pplx_project_search_images/6a3f507c59c799f3704cf4c724a4a1ec93552b0f.jpg" alt="CRM Mobile Application" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>Get Lima System Demo</h2>
+                    <p>Submit an application and we will show you all capabilities of our CRM system</p>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Company</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Lima</div>
+                <p>CRM System for Pharmaceutical Companies</p>
+                <p>&copy; 2025 Lima CRM. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div id="demoModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeDemoModal()">&times;</span>
+            <h2>Request Demo</h2>
+            <p>Fill out the form and we will contact you to demonstrate Lima CRM capabilities</p>
+            <form class="demo-form" onsubmit="submitDemoForm(event)">
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Company Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Phone</label>
+                    <input type="tel" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">Request Demo</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

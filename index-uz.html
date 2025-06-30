@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima - Farmatsevtika kompaniyalari uchun CRM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">Lima</div>
+                <div class="nav-menu">
+                    <a href="#about" class="nav-link">Tizim haqida</a>
+                    <a href="#modules" class="nav-link">Modullar</a>
+                    <a href="#contact" class="nav-link">Kontaktlar</a>
+                </div>
+                <button class="btn btn--primary btn--sm" onclick="openDemoModal()">Demo olish</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Farmatsevtika kompaniyalari uchun CRM-tizimi</h1>
+                    <p class="hero-subtitle">Tibbiy vakillar va menejerlar uchun inqilobiy yechim. 3 yillik ishlanma, 400 faol foydalanuvchi, biznes-jarayonlarni to'liq nazorat qilish uchun 7 modul.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary btn--lg" onclick="openDemoModal()">Demo olish</button>
+                        <a href="#about" class="btn btn--outline btn--lg">Ko'proq bilish</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748680040/pplx_project_search_images/1ec157b52c9f4dfcc45635bff410977bfee776b7.jpg" alt="Planshet bilan tibbiy vakil" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lima - farmatsevtika holdingi uchun integratsiyalashgan CRM-tizimi</h2>
+                <p>Sotishni boshqarish, mijozlar bazasi va tibbiy vakillar jamoasini boshqarish uchun kompleks yechim</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">yil ishlanma</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">400</div>
+                    <div class="stat-label">faol foydalanuvchi</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">tizim moduli</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section id="modules" class="modules">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lima tizimi modullari</h2>
+                <p>Integratsiyalar va mobil ilova bilan to'liq funksional CRM</p>
+            </div>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-icon">👥</div>
+                    <h3>Mijozlarni boshqarish uchun CRM</h3>
+                    <p>Mijozlar bazasi bilan ishlashning to'liq tsikli, kontaktlar va o'zaro ta'sir tarixini boshqarish</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">🏥</div>
+                    <h3>Tibbiy vakillar moduli</h3>
+                    <p>Tibbiy vakillar jamoasi va ularning dala faoliyatini boshqarish</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">🔗</div>
+                    <h3>1C UT bilan integratsiya</h3>
+                    <p>Ma'lumotlarni sinxronlashtirish uchun hisobot tizimlari bilan uzluksiz integratsiya</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">🚚</div>
+                    <h3>DPD yetkazib berish tizimi</h3>
+                    <p>Logistik jarayonlarni avtomatlashtirish va yetkazib berishni kuzatish</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">📅</div>
+                    <h3>Tashriflarni boshqarish</h3>
+                    <p>Mobil ilova bilan shifokorlarga tashriflarni rejalashtirish va nazorat qilish</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">💊</div>
+                    <h3>Dorilar ma'lumotlar bazasi</h3>
+                    <p>Dori vositalari nomenklaturasi va xususiyatlarini boshqarish</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">📊</div>
+                    <h3>Hisobot moduli</h3>
+                    <p>Faoliyatning barcha yo'nalishlari bo'yicha batafsil tahlil va hisobotlar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section class="mobile-app">
+        <div class="container">
+            <div class="mobile-app-content">
+                <div class="mobile-app-text">
+                    <h2>Tibbiy vakillar uchun mobil ilova</h2>
+                    <p>Intuitive mobil ilovamiz bilan istalgan joyda samarali ishlang</p>
+                    <ul class="feature-list">
+                        <li>Shifokorlarga tashriflarni rejalashtirish va belgilash</li>
+                        <li>Mijozlar bazasiga oflayn kirish</li>
+                        <li>Asosiy tizim bilan sinxronlashtirish</li>
+                        <li>Real vaqtda hisobotlar va tahlil</li>
+                    </ul>
+                </div>
+                <div class="mobile-app-images">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748680040/pplx_project_search_images/6a3f507c59c799f3704cf4c724a4a1ec93552b0f.jpg" alt="CRM mobil ilovasi" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>Lima tizimining demosini olish</h2>
+                    <p>Ariza qoldiring va biz CRM-tizimizdagi barcha imkoniyatlarni ko'rsatamiz</p>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label class="form-label">Ism</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Kompaniya</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Telefon</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Ariza yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Lima</div>
+                <p>Farmatsevtika kompaniyalari uchun CRM-tizimi</p>
+                <p>&copy; 2025 Lima CRM. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div id="demoModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeDemoModal()">&times;</span>
+            <h2>Demo so'rash</h2>
+            <p>Formani to'ldiring va biz Lima CRM imkoniyatlarini namoyish qilish uchun siz bilan bog'lanamiz</p>
+            <form class="demo-form" onsubmit="submitDemoForm(event)">
+                <div class="form-group">
+                    <label class="form-label">Ism va familiya</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Kompaniya nomi</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Telefon</label>
+                    <input type="tel" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">Demo so'rash</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
